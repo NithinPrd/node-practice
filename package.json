@@ -1,0 +1,29 @@
+{
+  "name": "restapi-practice",
+  "version": "1.0.0",
+  "description": "Practice package for REST API creation using NodeJS and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "restapi-practice"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "rest",
+    "restapi"
+  ],
+  "author": "NithinP",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15"
+  }
+}
